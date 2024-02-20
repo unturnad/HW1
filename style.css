@@ -1,0 +1,83 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.buttons
+{
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-inline:  75px;
+    color: #16a085;
+    font-family: "bahnschrift";
+}
+#header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#photo
+{
+    display: flex;
+    justify-content: center;
+}
+.photo
+{
+    margin-top: 0;
+    width: 1520px;
+    height: 720px;
+}
+#text
+{
+    background-color: rgb(243, 243, 243);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bahnschrift";
+}
+#title
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-weight: bold;
+
+}
+#all_text
+{
+    display: flex;
+    justify-content:center;
+    
+    letter-spacing: 1px;
+    margin-inline: 16%;
+    line-height: 30px;
+}
+#button
+{   
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: cadetblue;
+    margin-inline: 42%;
+    color: white;
+    margin-bottom: 100px;
+}
+#footer
+{
+    padding: 0px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.footer
+{
+    margin-top:35px;
+    margin-right: 5%;
+    font-family: "Bahnschrift";
+    font-weight: bold;
+}
